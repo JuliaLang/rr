@@ -1232,6 +1232,7 @@ set(TESTS_WITH_PROGRAM
   args
   async_kill_with_syscallbuf
   async_kill_with_syscallbuf2
+  arch_prctl_xcr0
   async_kill_with_threads
   async_kill_with_threads_main_running
   async_kill_with_threads_thread_running

@@ -248,11 +248,11 @@ static const PmuConfig pmu_configs[] = {
   // 0xd1 == RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS - Number of retired conditional branch instructions
   // 0x2c == INTERRUPT_TAKEN - Counts the number of interrupts taken
   // Both counters are available on all Zen microarchitecures so far.
-  { AMDZen, "AMD Zen", 0x5100d1, 0, 0, 25000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
-  { AMDZen2, "AMD Zen 2", 0x5100d1, 0, 0, 25000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
-  { AMDZen3, "AMD Zen 3", 0x5100d1, 0, 0, 25000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
-  { AMDZen4, "AMD Zen 4", 0x5100d1, 0, 0, 25000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
-  { AMDZen5, "AMD Zen 5", 0x5100d1, 0, 0, 25000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
+  { AMDZen, "AMD Zen", 0x5100d1, 0, 0, 30000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
+  { AMDZen2, "AMD Zen 2", 0x5100d1, 0, 0, 30000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
+  { AMDZen3, "AMD Zen 3", 0x5100d1, 0, 0, 30000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
+  { AMDZen4, "AMD Zen 4", 0x5100d1, 0, 0, 30000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
+  { AMDZen5, "AMD Zen 5", 0x5100d1, 0, 0, 30000, PMU_TICKS_RCB | PMU_SKID_UNBOUNDED },
   // Performance cores from ARM from cortex-a76 on (including neoverse-n1 and later)
   // have the following counters that are reliable enough for us.
   // 0x21 == BR_RETIRED - Architecturally retired taken branches
